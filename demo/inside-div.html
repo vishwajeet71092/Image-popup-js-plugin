@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Image Popup Javascript</title>
+	
+	<!-- styling this page -->
+	<style>
+		body{
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			padding: 10px 50px;
+		}
+		img{
+			max-width: 150px;
+			margin: 20px;
+		}
+		#image-pop{
+			border: 1px solid red;
+			margin:20px 0px;
+		}
+		.popimg{
+			border: 4px solid #ff9800;
+		}
+	</style>
+
+	<!-- link image-popup.min.css (required) -->
+	<link rel="stylesheet" href="image-popup.css">
+</head>
+<body>
+	<h2>Image Inside Div Example</h2><hr>
+
+	<div>
+
+		<!-- images ouside div -->
+
+		<h4>Images ouside div</h4>
+
+		<img src="https://image.freepik.com/free-photo/3d-male-medical-figure-showing-shoulder-scaption_1048-8833.jpg" alt="">
+		<img class="popimg" src="https://image.freepik.com/free-photo/3d-halloween-background-with-tree-silhouetted-against-the-moon_1048-8794.jpg" alt="">
+		<img src="https://image.freepik.com/free-vector/mountain-landscape-at-night_1048-8048.jpg" alt="">
+		<img class="popimg" src="https://image.freepik.com/free-photo/3d-mountain-landscape-against-sunset-sky_1048-7754.jpg" alt="">
+		<img src="https://image.freepik.com/free-vector/hand-painted-background-of-a-mountain-landscape_1048-8362.jpg" alt="">
+
+		<!-- images inside a div having class image-pop -->
+
+		<div id="image-pop">
+
+			<h4>Images inside  div</h4>
+
+			<img src="https://image.freepik.com/free-photo/3d-earth-and-fantasy-planet-with-bright-star_1048-8845.jpg" alt="">
+			<img class="popimg" src="https://image.freepik.com/free-photo/wooden-table-looking-out-to-a-defocussed-christmas-tree_1048-7235.jpg" alt="">
+			<img class="popimg" src="https://image.freepik.com/free-photo/green-world-with-a-tree-background_1048-1484.jpg" alt="">
+			<img src="https://image.freepik.com/free-photo/3d-render-of-a-wooden-table-looking-out-to-a-tropical-landscape_1048-6505.jpg" alt="">
+			<img class="popimg" src="https://image.freepik.com/free-photo/nature-design-with-bokeh-effect_1048-1882.jpg" alt="">
+		</div>
+	</div>
+
+	<div>
+		<!-- pic credit -->
+		<a href="https://www.freepik.com/free-photos-vectors/background">Background image created by Kjpargeter - Freepik.com</a>
+	</div>
+	
+	<!-- link vquiz.js (required) -->
+	<script src="image-popup.js"></script>
+	<!-- initiate the plugin -->
+	<script>
+		 
+		// for image inside a div
+		imagePopupInit({
+			type: 'insideDiv',
+			target: 'image-pop'
+		}); 
+ 
+	</script>
+	
+</body>
+</html>
