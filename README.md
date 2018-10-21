@@ -21,14 +21,14 @@ This Plugin will help you to create pop up image whenever you click on any image
 
 Paste this script before closing body tag and after all js
 
-	`````html
+	
 	<script> 
 		// for all image
 		imagePopupInit({
 			type: 'allImage'
 		}); 
 	</script>
-	````
+	
 
 
 ### Example Markup for All Image
