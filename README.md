@@ -117,7 +117,7 @@ Paste this script before closing body tag and after all js
 
 Paste this script before closing body tag and after all js and target value will be the id of div
 
-	```html
+	
 	<script>
 		 
 		// for image inside a div
@@ -127,7 +127,7 @@ Paste this script before closing body tag and after all js and target value will
 		}); 
  
 	</script>
-	```
+	
 
 ### Example Markup for Images inside a div
 
@@ -219,7 +219,7 @@ Paste this script before closing body tag and after all js and target value will
 
 Paste this script before closing body tag and after all js and target value will be the class of images
 
-	```html
+	
 	<script> 
 		//for image having class
 		imagePopupInit({
@@ -228,7 +228,7 @@ Paste this script before closing body tag and after all js and target value will
 		}); 
 		 
 	</script>
-	```
+	
 
 ### Example Markup for Images with a class
 
