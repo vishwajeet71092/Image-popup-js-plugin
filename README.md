@@ -11,24 +11,24 @@ This Plugin will help you to create pop up image whenever you click on any image
 1. Download **image-popup.js** and **image-popup.css**. 
 2. Put it in your project directory and link it on the page.
 
-    ```html
+    ````html
     <!-- link image-popup.css (required) -->
     <link rel="stylesheet" href="image-popup.css">
     <!-- link image-popup.js (required) -->
     <script src="image-popup.js"></script>
-    ```
+    ````
 ### Case 1 (All Image) 
 
 Paste this script before closing body tag and after all js
 
-	```html
+	
 	<script> 
 		// for all image
 		imagePopupInit({
 			type: 'allImage'
 		}); 
 	</script>
-	```
+	
 
 
 ### Example Markup for All Image
@@ -115,9 +115,9 @@ Paste this script before closing body tag and after all js
 
 ### Case 2 (Images inside a div) 
 
-Paste this script before closing body tag and after all js and target value will be the class of div
+Paste this script before closing body tag and after all js and target value will be the id of div
 
-	```html
+	
 	<script>
 		 
 		// for image inside a div
@@ -127,7 +127,7 @@ Paste this script before closing body tag and after all js and target value will
 		}); 
  
 	</script>
-	```
+	
 
 ### Example Markup for Images inside a div
 
@@ -219,7 +219,7 @@ Paste this script before closing body tag and after all js and target value will
 
 Paste this script before closing body tag and after all js and target value will be the class of images
 
-	```html
+	
 	<script> 
 		//for image having class
 		imagePopupInit({
@@ -228,7 +228,7 @@ Paste this script before closing body tag and after all js and target value will
 		}); 
 		 
 	</script>
-	```
+	
 
 ### Example Markup for Images with a class
 
