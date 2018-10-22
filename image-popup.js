@@ -24,7 +24,10 @@ function includePopupHTML(){
 	
 	// popup code added after body tag
 
-	document.body.innerHTML = html+document.body.innerHTML;
+	var bodytag = document.body;
+	var popdiv = document.createElement("div");
+	popdiv.innerHTML = html;
+	bodytag.insertBefore(popdiv, bodytag.firstChild);
 }
 
 
