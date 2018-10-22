@@ -99,7 +99,7 @@ Paste this script before closing body tag and after all js
 		<a href="https://www.freepik.com/free-photos-vectors/background">Background image created by Kjpargeter - Freepik.com</a>
 	</div>
 	
-	<!-- link vquiz.js (required) -->
+	<!-- link image-popup.min.js (required) -->
 	<script src="image-popup.js"></script>
 	<!-- initiate the plugin -->
 	<script> 
@@ -197,7 +197,7 @@ Paste this script before closing body tag and after all js and target value will
 		<a href="https://www.freepik.com/free-photos-vectors/background">Background image created by Kjpargeter - Freepik.com</a>
 	</div>
 	
-	<!-- link vquiz.js (required) -->
+	<!-- link image-popup.min.js (required) -->
 	<script src="image-popup.js"></script>
 	<!-- initiate the plugin -->
 	<script>
@@ -298,7 +298,7 @@ Paste this script before closing body tag and after all js and target value will
 		<a href="https://www.freepik.com/free-photos-vectors/background">Background image created by Kjpargeter - Freepik.com</a>
 	</div>
 	
-	<!-- link vquiz.js (required) -->
+	<!-- link image-popup.min.js (required) -->
 	<script src="image-popup.js"></script>
 	<!-- initiate the plugin -->
 	<script> 
