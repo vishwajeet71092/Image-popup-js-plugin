@@ -1,4 +1,4 @@
-# Image Popup Javascript Plugin
+# Image Popup (Javascript Plugin)
 This Plugin will help you to create pop up image whenever you click on any image on your webpage.
 
 ## About Plugin
